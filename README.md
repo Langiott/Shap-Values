@@ -10,16 +10,13 @@ Questo progetto utilizza diverse librerie e un modello pre-addestrato per l'emot
 Perfetto 👍
 Riscrivo **tutto il blocco** in modo coerente e **README-ready**, mantenendo lo stesso livello di rigore ma con **un esempio di NLP / emotion classification**.
 
----
 
-## 🔎 SHAP Value (SHapley Additive exPlanations)
+## 🔎 SHAP Value (Shapley Additive Explanations)
 
 Le **SHAP values** sono una tecnica di *Explainable AI (XAI)* utilizzata per interpretare le predizioni dei modelli di machine learning.
-Si basano sulla **teoria dei giochi cooperativi**, in particolare sul **valore di Shapley**, e consentono di misurare **il contributo di ogni feature (o token) alla predizione finale del modello**.
+Si basano sulla **teoria dei giochi cooperativi**, in particolare sul **valore di Shapley**, e consentono di misurare **il contributo di ogni feature (o token) alla predizione finale del modello**. Nel contesto del *Natural Language Processing*, ogni **token/parola** di una frase può essere visto come un “giocatore” che contribuisce alla decisione del modello.
 
-Nel contesto del *Natural Language Processing*, ogni **token/parola** di una frase può essere visto come un “giocatore” che contribuisce alla decisione del modello.
 
----
 
 ## 🧠 Cosa misura uno SHAP value
 
@@ -40,7 +37,6 @@ dove:
 * **valore base** è la probabilità media della classe nel dataset
 * **SHAP_i** è il contributo del singolo token
 
----
 
 ## 📌 Perché usare le SHAP values
 
@@ -50,8 +46,6 @@ Le SHAP values sono particolarmente utili perché:
 * sono **model-agnostic**
 * permettono di analizzare il comportamento del modello su **testi reali**
 * rendono interpretabili modelli complessi come **Transformer e reti neurali profonde**
-
----
 
 ## 📊 Esempio: predizione dell’emozione di una frase
 
@@ -84,7 +78,6 @@ Supponiamo un modello di **emotion classification** che assegna a una frase l’
 
 👉 Ogni SHAP value indica **quanto ciascun token ha contribuito alla predizione dell’emozione**.
 
----
 
 ## 🛠️ Esempio pratico (Python)
 
