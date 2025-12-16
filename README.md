@@ -2,13 +2,10 @@
 
 Questo progetto utilizza diverse librerie e un modello pre-addestrato per l'emotion recognition. Sono state anche le Shap Values per una miglior comprensione di come il modello fornisce la sua predizione. Tramite l'utilizzo di plot caratteristici di Shap, possiamo comprendere come il modello seleziona le varie features per la predizione. Il modello utilizza le varie libreria CUDA per l'addestramento del modello, quindi assicurarsi di avere i requisiti adatti a livello hardware/driver
 
-## Caratteristiche
+## Caratteristiche progetto
 - Emotion recognition a partire da un testo inserito
 - Visualizzazione delle predizioni e interpretazioni dei modelli.
 - Creazione di un'applicazione web per interagire con il modello
-
-Perfetto 👍
-Riscrivo **tutto il blocco** in modo coerente e **README-ready**, mantenendo lo stesso livello di rigore ma con **un esempio di NLP / emotion classification**.
 
 
 ## 🔎 SHAP Value (Shapley Additive Explanations)
