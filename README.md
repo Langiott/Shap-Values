@@ -1,9 +1,5 @@
 # Modello di riconoscimento di emozioni dal testo 
 
-![Copertina del README](/copertina.jpg)
-
-
-## Descrizione
 Questo progetto utilizza diverse librerie e un modello pre-addestrato per l'emotion recognition. Sono state anche le Shap Values per una miglior comprensione di come il modello fornisce la sua predizione. Tramite l'utilizzo di plot caratteristici di Shap, possiamo comprendere come il modello seleziona le varie features per la predizione. Il modello utilizza le varie libreria CUDA per l'addestramento del modello, quindi assicurarsi di avere i requisiti adatti a livello hardware/driver
 
 ## Caratteristiche
