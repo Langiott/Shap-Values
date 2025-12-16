@@ -25,14 +25,14 @@ Per una singola predizione:
 
 Le SHAP values soddisfano la proprietà di **additività**:
 
-[
+$$
 \text{Output del modello} = \text{valore base} + \sum_i \text{SHAP}_i
-]
+$$
 
 dove:
 
-* **valore base** è la probabilità media della classe nel dataset
-* **SHAP_i** è il contributo del singolo token
+- **valore base** è la probabilità media della classe nel dataset
+- **SHAP\_i** è il contributo del singolo token
 
 
 ## 📌 Perché usare le SHAP values
