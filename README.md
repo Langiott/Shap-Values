@@ -11,7 +11,7 @@ Questo progetto utilizza diverse librerie e un modello pre-addestrato per l'emot
 ## 🔎 SHAP Value (Shapley Additive Explanations)
 
 Le **SHAP values** sono una tecnica di *Explainable AI (XAI)* utilizzata per interpretare le predizioni dei modelli di machine learning.
-Si basano sulla **teoria dei giochi cooperativi**, in particolare sul **valore di Shapley**, e consentono di misurare **il contributo di ogni feature (o token) alla predizione finale del modello**. Nel contesto del *Natural Language Processing*, ogni **token/parola** di una frase può essere visto come un “giocatore” che contribuisce alla decisione del modello.
+Si basano sulla **teoria dei giochi cooperativi**. Il **valore di Shapley** misurare **il contributo di ogni feature (o token) alla predizione finale del modello**. Nel contesto del *Natural Language Processing*, ogni **token/parola** di una frase può essere visto come un “giocatore” che contribuisce alla decisione del modello.
 
 
 
